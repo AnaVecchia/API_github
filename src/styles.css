@@ -1,0 +1,39 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+
+/* Estilização para o input de texto */
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 3px solid rgb(206, 206, 206);
+  border-radius: 12px;
+}
+
+/* Estilização para o botão de pesquisa */
+button {
+  padding: 10px 10px;
+  font-size: 19px;
+  background-color: #000066;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/* Estilização para a mensagem de erro */
+p.error {
+  color: red;
+  font-weight: bold;
+}
+
+/* Estilização para a imagem do avatar */
+img {
+  border-radius: 50%;
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+}
